@@ -1,8 +1,8 @@
+
 class School
 
-school.roster = []
 
 def inittialize(name)
-
+  @name = name 
 end
 end

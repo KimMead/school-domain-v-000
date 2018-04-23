@@ -1,7 +1,8 @@
 class School
 
+school.roster = []
 
 def inittialize(name)
-  school.roster = []
+  
 end
 end

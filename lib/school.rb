@@ -1,7 +1,7 @@
 
 class School
 
-SCHOOL.ROSTER = []
+SCHOOL_ROSTER = []
 
 def inittialize(name)
   @name = name

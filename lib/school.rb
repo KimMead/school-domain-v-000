@@ -2,7 +2,7 @@
 class School
 attr_accessor :name, :school
 
-def initialize(name)
+def initialize(name, school)
   @name = name
   @school = {}
 end

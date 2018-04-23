@@ -1,10 +1,10 @@
 
 class School
-attr_accessor :name, :school
+attr_accessor :name, :roster
 
-def initialize(name, school)
+def initialize(name)
   @name = name
-  @school = {}
+  @roster = {}
 end
 end
 

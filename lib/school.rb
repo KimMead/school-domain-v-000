@@ -3,6 +3,7 @@ class School
 
 
 def inittialize(name)
-  @name = name 
+  @name = name
+  school.roster = []
 end
 end

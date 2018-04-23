@@ -6,6 +6,7 @@ def inittialize(name)
   @name = name
   @roster = {}
 end
+end 
 
 
 

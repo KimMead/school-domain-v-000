@@ -1,9 +1,10 @@
 
 class School
 
+SCHOOL.ROSTER = []
 
 def inittialize(name)
   @name = name
-  school.roster = []
+  
 end
 end

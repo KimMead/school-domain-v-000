@@ -7,6 +7,6 @@ def inittialize(name)
   @roster = {}
 end
 
-  
+
 
 #school.roster = {}

@@ -12,6 +12,7 @@ def add_student(name, level)
     @roster[level] << name
   else
     @roster[level] << [name]
+  end 
 end
 end
 

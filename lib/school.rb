@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def add_student(name, level)
-  roster << name
+  roster[level] << name
 end
 end
 

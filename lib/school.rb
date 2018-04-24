@@ -8,10 +8,11 @@ def initialize(name)
 end
 
 def add_student(name, level)
-@roster[level] << name
+@roster[level] = []
+@roster[level] << name 
 end
 end
 
 
 
-#school.roster = {}
+

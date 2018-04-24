@@ -8,11 +8,7 @@ def initialize(name)
 end
 
 def add_student(name, level)
-  if @roster[level] != nil
-    @roster[level] << name
-  else
-    @roster[level] << [name]
-  end
+roster[level] << name 
 end
 end
 
